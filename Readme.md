@@ -70,7 +70,7 @@
             "authToken": "aeaed310-b9a7-11e8-a3ec-bf58ad2851e0",
             "user": {
                 "name": "Rajat",
-                "email": "rajatkatiyar2009@gmail.com",
+                "email": "rajatkatiyar@gmail.com",
                 "created": "2018-09-16T10:04:42.892Z"
             }
         },
@@ -93,14 +93,14 @@
 
     # Response Example:
       {
-        "error": false,
-        "object": {
-            "error": true,
-            "message": "Payload Incorrect"
-        },
-        "message": "",
-        "extendedMessage": "",
-        "timeStamp": 1537098348763
+	    "error": false,
+	    "object": {
+		"link": "http://domainname.com/reset/token/32023160-b9af-11e8-b1e0-496b6353dd56",
+		"token": "32023160-b9af-11e8-b1e0-496b6353dd56"
+	    },
+	    "message": "",
+	    "extendedMessage": "",
+	    "timeStamp": 1537102274449
       }
 
     #Reset API(POST): /api/reset/
@@ -117,15 +117,15 @@
 
     # Response Example:
       {
-        "error": false,
-        "object": {
-            "error": true,
-            "success": false,
-            "message": "This Verification Token has been Used Previously."
-        },
-        "message": "",
-        "extendedMessage": "",
-        "timeStamp": 1537098457705
+	    "error": false,
+	    "object": {
+		"error": false,
+		"success": true,
+		"message": "The Password has been udated Successfully"
+	    },
+	    "message": "",
+	    "extendedMessage": "",
+	    "timeStamp": 1537102344095
       }
 
 #Project Structure
